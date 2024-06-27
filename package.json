@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build-pre": "tsc -b && vite build --mode pre",
     "lint": "eslint src --fix --ext .ts,.tsx,.jsx,.js --max-warnings 0",
     "preview": "vite preview",
     "prepare": "husky",
